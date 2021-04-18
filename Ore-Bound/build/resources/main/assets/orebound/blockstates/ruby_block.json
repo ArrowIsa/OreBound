@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "orebound:block/ruby_block" }
+  }
+}

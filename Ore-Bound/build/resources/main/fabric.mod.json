@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "orebound",
+  "version": "1.0.0",
+
+  "name": "Ore-Bound",
+  "description": "You get different ores like Ruby, Emerald, Sapphire and Amethyst, then you can add them with a smithing table to iron items to make ore-bound iron tools",
+  "authors": [
+    "çŸ¢å?°#9466",
+    "WindowsLogic#0001"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/orebound/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.arrow.orebound.Orebound"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
